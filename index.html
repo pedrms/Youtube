@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Youtube</title>
+  <title>YouTube</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -32,26 +32,28 @@
       </a>
     </div>
   </header>
-    <div class="categories">
-      <section class="category-section">
-        <button class="category">All</button>
-        <button class="category">Categoria</button>
-        <button class="category">Categoria</button>
-        <button class="category">Categoria</button>
-        <button class="category">Categoria</button>
-        <button class="category">Categoria</button>
-        <button class="category">Categoria</button>
-        <button class="category">Categoria</button>
-        <button class="category">Categoria</button>
-      </section>
-    </div>
-  <div id="video-principal">
-    <div class="thumbnail-principal">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXqUH86F-kA?si=AysFpWSPs0JyWXxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-        <div class="video-bottom-section-principal">
-          <img class="channel-icon-principal" src="img/icon-perfil.jpg" alt="Ícone do canal" width="36" height="36">
-        </div>
+  
+  <div class="categories">
+    <section class="category-section">
+      <button class="category active">All</button>
+      <button class="category">Categoria 1</button>
+      <button class="category">Categoria 2</button>
+      <button class="category">Categoria 3</button>
+      <button class="category">Categoria 4</button>
+      <button class="category">Categoria 5</button>
+      <button class="category">Categoria 6</button>
+      <button class="category">Categoria 7</button>
+      <button class="category">Categoria 8</button>
+    </section>
+  </div>
+  
+  <main>
+    <div id="video-principal">
+      <div class="thumbnail-principal">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BXqUH86F-kA?si=AysFpWSPs0JyWXxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="video-bottom-section-principal">
+        <img class="channel-icon-principal" src="img/icon-perfil.jpg" alt="Ícone do canal" width="36" height="36">
         <div class="video-details-principal">
           <a href="#" class="video-title-principal">Free Modern JavaScript Course (Trailer)</a>
           <a href="#" class="video-channel-name-principal">Curso em Vídeo</a>
@@ -61,24 +63,34 @@
             <span>6 years ago</span>
           </div>
         </div>
-  </div>
-  <div class="videos">
-    <section class="video-section">
-      <article class="video-container">
-        <a href="https://www.youtube.com/watch?v=BXqUH86F-kA" target="_self" class="thumbnail" data-duration="3:17">
-          <img src="img/thumbnail.jpg" alt="Miniatura">
-        </a>
-        <div class="video-details">
-          <a href="#" class="video-title">Free Modern JavaScript Course (Trailer)</a>
-          <a href="#" class="video-channel-name">Curso em Vídeo</a>
-          <div class="video-metadata">
-            <span>1.4M views</span>
-            •
-            <span>6 years ago</span>
+      </div>
+    </div>
+    
+    <div class="videos">
+      <section class="video-section">
+        <article class="video-container">
+          <a href="https://www.youtube.com/watch?v=BXqUH86F-kA" target="_self" class="thumbnail" data-duration="3:17">
+            <img src="img/thumbnail.jpg" alt="Miniatura">
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Free Modern JavaScript Course (Trailer)</a>
+            <a href="#" class="video-channel-name">Curso em Vídeo</a>
+            <div class="video-metadata">
+              <span>1.4M views</span>
+              •
+              <span>6 years ago</span>
+            </div>
           </div>
-        </div>
-      </article>
-    </section>
-  </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 YouTube Clone. Todos os direitos reservados.</p>
+    <a href="#">Termos</a>
+    <a href="#">Privacidade</a>
+    <a href="#">Ajuda</a>
+  </footer>
 </body>
 </html>
